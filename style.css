@@ -146,6 +146,7 @@ footer nav ul {
   main div, .segundaSessaoMain {
     width: 70vw;
     height: 60vh;
+    background-position: center;
   }
   .caixaXbox {
     background-image: url("./Assets/responsivo\ xbox.png");
