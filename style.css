@@ -53,13 +53,13 @@ li:hover {
   width: 80vw;
   height: 60vh;
 }
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-bottom: solid 1px #e2e2e2;
-    font-family: "Nunito", sans-serif;
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid 1px #e2e2e2;
+  font-family: "Nunito", sans-serif;
 }
 main div {
   display: flex;
@@ -67,7 +67,7 @@ main div {
   flex-direction: column;
   width: 24vw;
   border-radius: 5px;
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   color: #ffff;
@@ -88,43 +88,43 @@ main h2 {
 .caixaMultiversus {
   background-image: url("./Assets/multiversus.png");
 }
-.segundaSessaoMain{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin-top: 30px;
-    width: 76vw;
-    height: 60vh;
-    border-radius: 5px;
-    background-image: url("./Assets/need_for_speed.jpg");
-    background-size: cover;
-    padding: 20px;
-    color: #ffff;
+.segundaSessaoMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 30px;
+  width: 76vw;
+  height: 60vh;
+  border-radius: 5px;
+  background-image: url("./Assets/need_for_speed.jpg");
+  background-size: cover;
+  padding: 20px;
+  color: #ffff;
 }
-.textoFinalMain{
-    display: flex;
-    align-items: center;
-    height: 11vh;
+.textoFinalMain {
+  display: flex;
+  align-items: center;
+  height: 11vh;
 }
-footer nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 10vh;
-    font-family: "Nunito", sans-serif;
+footer nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  font-family: "Nunito", sans-serif;
 }
-footer nav ul{
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    width: 33vw;
-    padding-left: 3vw;
+footer nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 33vw;
+  padding-left: 3vw;
 }
 @media screen and (max-width: 500px) {
   header {
     flex-direction: row-reverse;
   }
-  nav {
+  header nav {
     justify-content: center;
   }
   h1 {
@@ -133,4 +133,49 @@ footer nav ul{
   .iconeHeader {
     display: none;
   }
+  main nav {
+    display: none;
+  }
+  .primeiraSessaoMain {
+    margin-top: 22px;
+    align-items: center;
+    flex-direction: column;
+    height: 195vh;
+    width: 85vw;
+  }
+  main div, .segundaSessaoMain {
+    width: 70vw;
+    height: 60vh;
+  }
+  .caixaXbox {
+    background-image: url("./Assets/responsivo\ xbox.png");
+  }
+  .caixaCyberpunk {
+    background-image: url("./Assets/responsivo\ cyberpunk.png");
+  }
+  .caixaMultiversus {
+    background-image: url("./Assets/responsivo\ multiversus.png");
+  }
+  .segundaSessaoMain {
+      background-image: url("./Assets/responsivo\ needforspeed.png");
+      margin-top:0;
+}
+.textoFinalMain{
+    height: 15vh;
+}
+footer p{
+    display: none;
+}
+footer nav{
+    height: 24vh;
+}
+footer nav ul{
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60vw;
+    height: 20vh;
+    padding-left:0vw;
+    font-weight: 900;
+}
 }
