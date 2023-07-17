@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Nunito:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: solid 1px #e2e2e2;
+  height: 14vh;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 17vw;
+}
+h1 {
+  font-family: "Caesar Dressing", cursive;
+  font-size: 50px;
+  font-weight: 100;
+}
+div {
+  display: flex;
+  justify-content: space-around;
+  width: 10vw;
+}
+main nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 16vh;
+}
+main ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 32vw;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+}
+li:hover {
+  cursor: pointer;
+  transform: scale(108%);
+}
+.primeiraSessaoMain {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80vw;
+  height: 60vh;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 1px #e2e2e2;
+    font-family: "Nunito", sans-serif;
+}
+main div {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: 24vw;
+  border-radius: 5px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #ffff;
+  padding: 14px;
+}
+main p {
+  font-size: 16px;
+}
+main h2 {
+  font-size: 22px;
+}
+.caixaXbox {
+  background-image: url("./Assets/xbox.png");
+}
+.caixaCyberpunk {
+  background-image: url("./Assets/cyberpunk.png");
+}
+.caixaMultiversus {
+  background-image: url("./Assets/multiversus.png");
+}
+.segundaSessaoMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 30px;
+    width: 76vw;
+    height: 60vh;
+    border-radius: 5px;
+    background-image: url("./Assets/need_for_speed.jpg");
+    background-size: cover;
+    padding: 20px;
+    color: #ffff;
+}
+.textoFinalMain{
+    display: flex;
+    align-items: center;
+    height: 11vh;
+}
+footer nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    font-family: "Nunito", sans-serif;
+}
+footer nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 33vw;
+    padding-left: 3vw;
+}
+@media screen and (max-width: 500px) {
+  header {
+    flex-direction: row-reverse;
+  }
+  nav {
+    justify-content: center;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  .iconeHeader {
+    display: none;
+  }
+}
